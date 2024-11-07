@@ -69,7 +69,7 @@ export default class ReviewsDAO {
   static async getReviewsByBookId(bookId) {
     try {
       const cursor = await reviews.find(
-        { bookId: parseInt(bookId) }
+        { bookId: bookId }
       );
 
       return cursor.toArray();
