@@ -31,15 +31,23 @@ This is a full-stack application that displays a selection of books, allows user
    npm install
    ```
 3. **Set up environment variables**:
-- **Copy the** `.env.example` **file** to `.env` in the root directory of the project.
+   - **Copy the** `.env.example` **file** to `.env` in the root directory of the project.
    ```bash
    cp .env.example .env
    ```
-- **Fill in your MongoDB credentials** in the `.env` file:
+   - **Fill in your MongoDB credentials** in the `.env` file:
    ```
    # MongoDB configuration
    MONGODB_USERNAME=your_username_here
    MONGODB_PASSWORD=your_password_here
    MONGODB_URI=your_mongodb_uri_here
    ```
-Make sure you replace the placeholders with your actual MongoDB credentials.
+   Make sure you replace the placeholders with your actual MongoDB credentials.
+   This way, the `.env` file will be configured correctly and ready for the application to use when it runs.
+4. **Run the application**:
+   ```bash
+   npm start
+   ```
+   The application will start on `http://127.0.0.1:8080/`
+## Contributions
+Contributions are welcome! Feel free to fork the project, submit issues, or suggest features.
