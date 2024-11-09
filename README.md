@@ -18,3 +18,28 @@ This is a full-stack application that displays a selection of books, allows user
 - **MongoDB**: Database for storing book reviews.
 ## Getting Started
 ### Prerequisites
+- **Node.js**
+- **MongoDB**
+### Installation
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/mi7773/books_site.git
+   cd books_site
+   ```
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Set up environment variables**:
+- **Copy the** `.env.example` **file** to `.env` in the root directory of the project.
+   ```bash
+   cp .env.example .env
+   ```
+- **Fill in your MongoDB credentials** in the `.env` file:
+   ```
+   # MongoDB configuration
+   MONGODB_USERNAME=your_username_here
+   MONGODB_PASSWORD=your_password_here
+   MONGODB_URI=your_mongodb_uri_here
+   ```
+Make sure you replace the placeholders with your actual MongoDB credentials.
