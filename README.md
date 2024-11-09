@@ -1,7 +1,14 @@
 # Books Site
 ![Books Site](books_site.png)
-## Description
+## Overview
+### Description
 This is a full-stack application that displays a selection of books, allows users to search for specific books, and enables users to submit and view reviews. The project integrates the Google Books API to retrieve book data and covers, while the backend is built using Node.js, Express, and MongoDB to handle user interactions and reviews.
+### Screenshots
+![homepage](homepage.gif)
+![search](search.gif)
+![submit_a_review](submit_a_review.gif)
+![delete_a_review](delete_a_review.gif)
+![edit_a_review](edit_a_review.gif)
 ## Features
 - **Home Page**: Displays a selection of 10 books retrieved from the Google Books API, showing their titles and cover images.
 - **Search Functionality**: Users can search for books by keyword.
